@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ajouter une tâche</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Ajouter une nouvelle tâche</h1>
-    <form >
-        <label for="tache">Tâche:</label>
-        <input type="text" id="tache" name="tache" required>
-        <button type="submit">Ajouter</button>
+    <form action="#" method="POST">
+      <label for="tache">Tâche:</label>
+      <input type="text" id="tache" name="tache" required />
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+      <button type="submit">Ajouter</button>
     </form>
-</body>
+  </body>
 </html>
